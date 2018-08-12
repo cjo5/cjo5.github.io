@@ -8,12 +8,13 @@ img {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
+    color: #E26703;
 }
 
 a:hover {
-    color: #007FE0;
     text-decoration: underline;
+    color: #E26703;
 }
 
 .flex-container {
@@ -40,18 +41,16 @@ a:hover {
     padding: 10px 20px 5px 5px;
 }
 
-.content p {
+.content p:first-child {
+    font-size: 2.4rem;
+    font-weight: bold;
     margin: 0;
     padding: 0;
 }
 
-.content p:first-child {
-    font-size: 2.4rem;
-    font-weight: bold;
-}
-
-.content p:nth-child(2) {
-    margin-top: 10px;
+.content p {
+    margin: 10px 0px 0px 0px;
+    padding: 0;
 }
 
 .contact-list {
@@ -68,6 +67,5 @@ a:hover {
 
 .contact-list li a {
     display: block;
-    padding-left: 20px;
+    padding-left: 15px;
 }
-
