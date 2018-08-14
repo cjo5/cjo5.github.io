@@ -2,4 +2,6 @@
 
 My personal website.
 
-http://getskeleton.com is used for base styles and typography.
+### Attributions
+- CSS library [getskeleton.com](http://getskeleton.com)
+- CV icon made by [Freepik](http://www.freepik.com) from [www.flaticon.com](https://www.flaticon.com)
