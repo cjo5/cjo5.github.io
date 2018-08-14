@@ -44,8 +44,25 @@ img {
     padding: 10px 15px;
 }
 
-.src-link {
+.contact-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-list li {
     float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-list li a {
+    display: block;
+    padding-right: 10px;
+}
+
+.src-link {
+    float: right;
     font-size: 1.2rem;
     font-style: italic;
     text-decoration: none;
@@ -56,21 +73,4 @@ img {
     text-decoration: none;
     color: black;
     font-style: italic;
-}
-
-.contact-list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.contact-list li {
-    float: right;
-    margin: 0;
-    padding: 0;
-}
-
-.contact-list li a {
-    display: block;
-    padding-left: 15px;
 }
