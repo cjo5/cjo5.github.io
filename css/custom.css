@@ -16,8 +16,8 @@ img {
 }
 
 .box {
-    min-height: 50%;
-    max-width: 480px;
+    min-height: 75%;
+    width: 540px;
     margin: 5px;
 }
 
@@ -25,7 +25,7 @@ img {
     border-style: solid;
     border-color: #D3D3D3;
     border-width: 1px 0px 1px 0px;
-    padding: 20px 15px;
+    padding: 15px 10px;
 }
 
 .box-content p:first-child {
@@ -41,7 +41,7 @@ img {
 }
 
 .box-footer {
-    padding: 10px 15px;
+    padding: 10px 10px;
 }
 
 .contact-list {
@@ -63,7 +63,7 @@ img {
 
 .src-link {
     float: right;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-style: italic;
     text-decoration: none;
     color: black;
