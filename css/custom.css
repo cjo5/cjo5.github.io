@@ -2,9 +2,32 @@ html, body {
     height: 100%;
 }
 
-img {
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.5em;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #093354;
+}
+
+a {
+    display: block;
     margin: 0;
     padding: 0;
+}
+
+a, a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #E61970;
+    text-decoration: none;
 }
 
 .flex-container {
@@ -12,36 +35,17 @@ img {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100%;
+    height: 75%;
 }
 
-.box {
-    min-height: 75%;
-    width: 540px;
-    margin: 5px;
-}
-
-.box-content {
-    border-style: solid;
-    border-color: #D3D3D3;
-    border-width: 1px 0px 1px 0px;
-    padding: 15px 10px;
-}
-
-.box-content p:first-child {
-    font-size: 2.4rem;
-    font-weight: bold;
+#name {
+    font-size: 3rem;
     margin: 0;
     padding: 0;
 }
 
-.box-content p {
-    margin: 10px 0px 0px 0px;
-    padding: 0;
-}
-
-.box-footer {
-    padding: 10px 10px;
+#email {
+    margin: 2px 0 2px 0;
 }
 
 .contact-list {
@@ -53,24 +57,13 @@ img {
 .contact-list li {
     float: left;
     margin: 0;
-    padding: 0;
+    padding: 0 10px;
+
+    border-left: 1px solid;
+    border-color: #eeeeee;
 }
 
-.contact-list li a {
-    display: block;
-    padding-right: 10px;
-}
-
-.src-link {
-    float: right;
-    font-size: 1.5rem;
-    font-style: italic;
-    text-decoration: none;
-    color: black;
-}
-
-.src-link:hover {
-    text-decoration: none;
-    color: black;
-    font-style: italic;
+.contact-list li:first-child {
+    padding-left: 0;
+    border: 0;
 }

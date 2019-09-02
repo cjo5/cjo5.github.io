@@ -1,7 +1,7 @@
-## cjo5.github.io
+# cjo5.github.io
 
-My personal website.
+Personal website.
 
-### Attributions
+## Resources
+
 - CSS library [getskeleton.com](http://getskeleton.com)
-- CV icon made by [Freepik](http://www.freepik.com) from [www.flaticon.com](https://www.flaticon.com)
