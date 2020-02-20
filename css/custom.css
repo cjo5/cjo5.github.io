@@ -21,7 +21,7 @@ a {
 }
 
 a, a:visited {
-    color: #000000;
+    color: #E61970;
     text-decoration: none;
 }
 
@@ -38,31 +38,26 @@ a:hover {
     height: 75%;
 }
 
-#email {
-    color: #000000;
-    margin: 0 0 10px 0;
-}
-
-.contact-list {
+.link-list {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-.contact-list li {
+.link-list li {
     float: left;
     margin: 0;
     padding: 0 0.7em;
 
-    border-left: 2px solid;
-    border-color: #E61970;
+    border-left: 1px solid;
+    border-color: #000000;
 }
 
-.contact-list li:first-child {
+.link-list li:first-child {
     padding-left: 0;
     border: 0;
 }
 
-.contact-list li:last-child {
+.link-list li:last-child {
     padding-right: 0;
 }
